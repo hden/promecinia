@@ -1,4 +1,6 @@
 # promecinia
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.hden/promecinia.svg)](https://clojars.org/com.github.hden/promecinia)
+
 
 Use [promesa promises](https://github.com/funcool/promesa) as lacinia ResolverResults.
 
