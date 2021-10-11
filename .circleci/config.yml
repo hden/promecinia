@@ -17,7 +17,7 @@ jobs:
           - v2-dependencies-{{ checksum "project.clj" }}
           # fallback to using the latest cache if no exact match is found
           - v2-dependencies-
-      - run: clojure -Stree
+      - run: lein deps
       - save_cache:
           paths:
             - ~/.m2
