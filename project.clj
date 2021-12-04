@@ -11,4 +11,4 @@
   :repl-options {:init-ns promecinia.core}
   :profiles
   {:dev {:dependencies [[superlifter "0.1.3"]
-                        [datascript "1.3.1"]]}})
+                        [datascript "1.3.2"]]}})
