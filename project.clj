@@ -12,4 +12,4 @@
   :profiles
   {:dev {:dependencies [[datascript "1.4.1"]
                         [io.aviso/pretty "1.3"]
-                        [superlifter "0.1.3"]]}})
+                        [superlifter "0.1.4"]]}})
