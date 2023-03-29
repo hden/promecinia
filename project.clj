@@ -11,5 +11,5 @@
   :repl-options {:init-ns promecinia.core}
   :profiles
   {:dev {:dependencies [[datascript "1.4.2"]
-                        [io.aviso/pretty "1.3"]
+                        [io.aviso/pretty "1.4"]
                         [superlifter "0.1.4"]]}})
