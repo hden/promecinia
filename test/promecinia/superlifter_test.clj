@@ -52,7 +52,7 @@
   {:buckets {:default {:triggers {:interval {:interval 100}}}}
    :urania-opts {:env {:conn connection}}})
 
-(def ^:private ^:dynamic *superlifter*)
+(def ^:private ^:dynamic *superlifter* nil)
 
 (defn- manage-superlifter-buckets [f]
   (binding [*superlifter* (s/start! superlifter-args)]
