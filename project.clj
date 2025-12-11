@@ -5,7 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :managed-dependencies [[com.walmartlabs/lacinia "1.2.2"]
                          [funcool/promesa "11.0.678"]]
-  :dependencies [[org.clojure/clojure "1.12.3"]
+  :dependencies [[org.clojure/clojure "1.12.4"]
                  [com.walmartlabs/lacinia]
                  [funcool/promesa]]
   :repl-options {:init-ns promecinia.core}
