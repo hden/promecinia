@@ -10,6 +10,6 @@
                  [funcool/promesa]]
   :repl-options {:init-ns promecinia.core}
   :profiles
-  {:dev {:dependencies [[datascript "1.7.8"]
+  {:dev {:dependencies [[datascript "1.8.1"]
                         [io.aviso/pretty "1.4.4"]
                         [superlifter "0.1.7"]]}})
